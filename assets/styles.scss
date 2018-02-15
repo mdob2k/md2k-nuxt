@@ -1,0 +1,17 @@
+// Import the initial variables
+@import '~bulma/sass/utilities/initial-variables';
+@import '~bulma/sass/utilities/functions';
+
+// 2. Set your own initial variables
+@import 'variables';
+
+// 3. Set the derived variables
+
+// 5. Add new color variables to the color map.
+@import '~bulma/sass/utilities/derived-variables.sass';
+
+// 6. Import the rest of Bulma
+@import '~bulma/bulma';
+
+// Overrides
+@import 'overrides';
