@@ -51,7 +51,7 @@ module.exports = {
       {
         id: 'UA-82102149-1',
         debug: {
-          enabled: process.env.NODE_ENV !== 'production',
+          enabled: false,
           trace: false,
           sendHitTask: process.env.NODE_ENV === 'production'
         }
