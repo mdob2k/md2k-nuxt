@@ -15,17 +15,21 @@
   },
   "dependencies": {
     "@nuxtjs/google-analytics": "^2.0.2",
-    "bulma": "^0.6.2",
-    "nuxt": "^1.3.0"
+    "bulma": "^0.7.1",
+    "google-material-color": "^1.3.1",
+    "gsap": "^1.20.4",
+    "nuxt": "^1.4.0",
+    "p5": "^0.6.1",
+    "svg.js": "^2.6.4"
   },
   "devDependencies": {
-    "babel-eslint": "^8.2.1",
-    "cross-env": "^5.1.3",
-    "eslint": "^4.17.0",
-    "eslint-friendly-formatter": "^3.0.0",
-    "eslint-loader": "^1.7.1",
-    "eslint-plugin-vue": "^4.2.2",
-    "node-sass": "^4.7.2",
-    "sass-loader": "^6.0.6"
+    "babel-eslint": "^8.2.3",
+    "cross-env": "^5.1.4",
+    "eslint": "^4.19.1",
+    "eslint-friendly-formatter": "^4.0.1",
+    "eslint-loader": "^2.0.0",
+    "eslint-plugin-vue": "^4.5.0",
+    "node-sass": "^4.9.0",
+    "sass-loader": "^7.0.1"
   }
 }

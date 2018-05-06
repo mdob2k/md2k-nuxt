@@ -19,7 +19,7 @@ module.exports = {
     ],
     script: [
       {
-        src: 'https://use.fontawesome.com/releases/v5.0.6/js/all.js',
+        src: 'https://use.fontawesome.com/releases/v5.0.8/js/all.js',
         defer: true
       }
     ]
@@ -31,7 +31,7 @@ module.exports = {
   /*
   ** Plugins
   */
-  // plugins: [{ src: '~plugins/analytics.js', ssr: false }],
+  plugins: [{ src: '~plugins/analytics.js', ssr: false }],
   /*
   ** Customize the progress bar color
   */
