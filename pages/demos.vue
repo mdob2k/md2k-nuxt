@@ -26,6 +26,7 @@
 import Gsap01 from '@/components/demos/gsap01'
 import SvgJs01 from '@/components/demos/svgjs01'
 import SvgJs02 from '@/components/demos/svgjs02'
+import StopWatch from '@/components/demos/StopWatch'
 
 export default {
   name: 'Demos',
@@ -38,11 +39,17 @@ export default {
       components: [
         { name: 'GSAP 01', ref: 'gsap01' },
         { name: 'SVG.js 01', ref: 'svgjs01' },
-        { name: 'SVG.js 02', ref: 'svgjs02' }
+        { name: 'SVG.js 02', ref: 'svgjs02' },
+        { name: 'Stop Watch', ref: 'stopwatch' }
       ]
     }
   },
-  components: { gsap01: Gsap01, svgjs01: SvgJs01, svgjs02: SvgJs02 },
+  components: {
+    gsap01: Gsap01,
+    svgjs01: SvgJs01,
+    svgjs02: SvgJs02,
+    stopwatch: StopWatch
+  },
   methods: {}
 }
 </script>

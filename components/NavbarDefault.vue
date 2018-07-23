@@ -4,7 +4,7 @@
     <div class="navbar-brand">
       <nuxt-link to="/" class="navbar-item" exact>md2k</nuxt-link>
 
-      <button class="button navbar-burger" :class="{'is-active': isActive}" @click="isActive = !isActive" data-target="navMenu">
+      <button class="button navbar-burger" :class="{'is-active': isActive}" @click="isActive = !isActive" data-target="navMenu" aria-label="menu" aria-expanded="false">
         <span aria-hidden="true"></span>
         <span aria-hidden="true"></span>
         <span aria-hidden="true"></span>
@@ -18,7 +18,7 @@
 
       <div class="navbar-end">
 
-        <nuxt-link :to="{name: 'demos'}" class="navbar-link">Demos</nuxt-link>
+        <nuxt-link :to="{name: 'demos'}" class="navbar-item">Demos</nuxt-link>
 
       </div>
 
